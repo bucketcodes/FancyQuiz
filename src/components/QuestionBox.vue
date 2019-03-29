@@ -1,7 +1,7 @@
 <template>
   <div class="question-box-container">
     <b-jumbotron>
-      <template slot="lead">{{question.question}}</template>
+      <template slot="lead" v-html="question.question"></template>
 
       <hr class="my-4">
       <b-list-group>
